@@ -7,9 +7,21 @@
 
 public class Hello {
     public static void main(String args[]) {
-        System.out.println("Hello,World");
+        int i;
+        int a[] = new int[10];
+
+        for (i = 0; i < 3; i++) {
+            System.out.println("Hello,World");
+        }
+        i = 0;
+        while (i < 10) {
+            a[i] = i;
+            System.out.printf("%d", a[i]);
+            i++;
+        }
 
     }
 
 }
+
 
